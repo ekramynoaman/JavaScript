@@ -1,0 +1,274 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+/*#audio{
+	display: none;
+}*/
+
+.landingpage{
+	display: block;
+	margin:0;
+	width:100%;
+	height:100vh;
+/*	background-color: black;*/
+}
+
+#colum1{
+	float:left;
+	width:50%;
+	background:black;
+	height: 100vh;
+
+	transition: width 2s,
+				opacity 2s;
+}
+
+#icon1{
+	float:right;
+	position: relative;
+	padding-top: 45vh;
+	height:100px;
+}
+
+#colum2{
+	float:right;
+	width:50%;
+	background-color: white;
+	height: 100vh;
+
+	transition: width 2s,
+				opacity 2s;
+}
+#icon2{
+	float:left;
+	position: relative;
+	padding-top: 45vh;
+	height:100px;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
+.wrapper{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+}
+
+#vanish{
+	position: fixed;
+	width: 100%;
+	height: 70px;
+	/*border:1px solid black;*/
+	bottom: 0;
+/*	background-color: red;
+*/
+}
+
+img{
+	display:inline-block;
+	position: absolute;
+}
+
+#eye{
+	animation:flyingeye 10s infinite;
+	z-index:1;
+}
+
+@keyframes flyingeye{
+0%{
+	transform: translate3d(5vw,10vh,0px);
+	animation-timing-function: ease-in;
+}
+
+50%{
+	transform: translate3d(10vw,13vh,0px);
+	animation-timing-function: ease-out;
+}
+
+100%{
+	transform: translate3d(5vw,10vh,0px);
+	animation-timing-function: ease-in;
+}
+}
+
+#kite{
+	animation:flyingkite 10s infinite;
+	z-index:2;
+}
+
+@keyframes flyingkite{
+0%{
+	transform: translate3d(30vw,10vh,0px);
+	animation-timing-function: ease-in;
+}
+
+50%{
+	transform: translate3d(35vw,10vh,0px);
+	animation-timing-function: ease-out;
+	
+}
+
+100%{
+	transform: translate3d(30vw,10vh,0px);
+	animation-timing-function: ease-in;
+}
+}
+
+#star{
+	animation:flyingstar 10s infinite;
+	z-index:3;
+}
+
+@keyframes flyingstar{
+0%{
+	transform: translate3d(5vw,50vh,0px);
+	animation-timing-function: ease-in;
+}
+
+50%{
+	transform: translate3d(10vw,60vh,0px);
+	animation-timing-function: ease-out;
+	
+}
+
+100%{
+	transform: translate3d(5vw,50vh,0px);
+	animation-timing-function: ease-in;
+}
+}
+
+#moon{
+	animation:flyingmoon 10s infinite;
+	z-index:4;
+}
+
+@keyframes flyingmoon{
+0%{
+	transform: translate3d(23vw,43vh,0px);
+	animation-timing-function: ease-in;
+}
+
+50%{
+	transform: translate3d(25vw,36vh,0px);
+	animation-timing-function: ease-out;
+	
+}
+
+100%{
+	transform: translate3d(23vw,43vh,0px);
+	animation-timing-function: ease-in;
+}
+}
+
+#horse{
+	animation:flyinghorse 10s infinite;
+	z-index:5;
+}
+
+@keyframes flyinghorse{
+0%{
+	transform: translate3d(43vw,60vh,0px);
+	animation-timing-function: ease-in;
+}
+
+50%{
+	transform: translate3d(49vw,64vh,0px);
+	animation-timing-function: ease-out;
+	
+}
+
+100%{
+	transform: translate3d(43vw,60vh,0px);
+	animation-timing-function: ease-in;
+}
+}
+
+
+#hand{
+	animation:flyinghand 10s infinite;
+	z-index: 7;
+}
+
+@keyframes flyinghand{
+0%{
+	transform: translate3d(60vw,32vh,0px);
+	animation-timing-function: ease-in;
+}
+
+50%{
+	transform: translate3d(63vw,25vh,0px);
+	animation-timing-function: ease-out;
+
+}
+
+100%{
+	transform: translate3d(60vw,32vh,0px);
+	animation-timing-function: ease-in;
+}
+}
+
+#body{
+	animation:flyingbody 10s infinite;
+	z-index: 8;
+}
+
+@keyframes flyingbody{
+0%{
+	transform: translate3d(84vw,10vh,0px);
+	animation-timing-function: ease-in;
+}
+
+50%{
+	transform: translate3d(79vw,7vh,0px);
+	animation-timing-function: ease-out;
+	
+}
+
+100%{
+	transform: translate3d(84vw,10vh,0px);
+	animation-timing-function: ease-in;
+}
+}
+
+#bird{
+	animation:flyingbird 10s infinite;
+	z-index: 9;
+}
+
+@keyframes flyingbird{
+0%{
+	transform: translate3d(82vw,65vh,0px);
+	animation-timing-function: ease-in;
+	/*transform:rotate(0deg);*/
+}
+
+50%{
+	transform: translate3d(77vw,59vh,0px);
+	animation-timing-function: ease-out;
+	/*transform:rotate(3deg);*/
+	
+}
+
+100%{
+	transform: translate3d(82vw,65vh,0px);
+	animation-timing-function: ease-in;
+	/*transform:rotate(0deg);*/
+}
+}
+
+#poem {
+	padding-left: 50px;
+	opacity: 1;
+	transition: opacity 2s ease-in-out;
+	text-decoration: underline;
+}
+

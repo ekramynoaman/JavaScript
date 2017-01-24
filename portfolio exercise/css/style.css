@@ -1,0 +1,170 @@
+body{
+	padding:0 0 25px;
+	width:100%;
+	background-color: #fda7a0;
+	margin:0 auto;
+	font-family: 'Limelight', cursive;
+}
+
+
+.nav{
+	padding-top:30vh; 
+	padding-bottom:35vh;
+	color: white;
+	text-align: center;
+	width: 60vw;
+	display: block;
+	margin:0 auto;
+}
+
+.nav h1{
+	font-size:4em;
+	margin-bottom:10px;
+}
+.nav p{
+	margin-top:10px;
+}
+
+/*#about{
+	z-index: 100;
+	position: absolute;
+	color:#fda7a0;
+	margin-top: 41px;
+	margin-left:551px;
+}
+
+#about:hover{
+	color:#edd37c;
+}
+
+#scrollbutton{
+	margin-top:120px;
+}
+
+#scrollbutton:hover{
+	color:#edd37c;
+}*/
+
+
+.sidebar{
+	width:20%;
+	height:600px;
+	position: relative;
+	float:left;
+	background-color:#edd37c; 
+	color:white;
+	text-align:left;
+	padding-left: 50px;
+	padding-top:50px;
+}
+
+.sidebar h1{
+	margin:0;
+	font-size: 4em;
+}
+
+.sidebar p{
+	font-size:0.5em;
+	margin-top:20px;
+}
+
+#work{
+	text-decoration:underline;
+	color:#BDB944;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:visited{
+	text-decoration: none;
+	color:white;
+}
+
+a:hover{
+	color:#ec695f;
+}
+
+#about{
+	z-index: 100;
+	position: absolute;
+	color:#fda7a0;
+	margin-top: 41px;
+	margin-left:551px;
+}
+
+#about:hover{
+	color:#edd37c;
+}
+
+#scrollbutton{
+	margin-top:120px;
+}
+
+#scrollbutton:hover{
+	color:#edd37c;
+}
+
+.gallery{
+	width:75%;
+	height:100vh;
+	float:right;
+}
+
+.box{
+	width:32.4%;
+	height:300px;
+	display: inline-block;
+	padding:1px;
+	overflow:hidden;
+	opacity:1.0;
+	opacity-transition:.5s ease-in-out;
+}
+.box:hover{
+	opacity:0.5;
+	opacity-transition:.5s ease-in-out;
+	transform: scale(1.2);
+
+
+}
+
+.project-info{
+	z-index:100;
+	position:absolute;
+	color:white;
+	padding-left: 20px;
+	margin-top:20px;
+	opacity:0;
+	opacity-transition:.5s ease-in-out
+}
+
+.project-info:hover{
+	opacity:1;
+	opacity-transition:.5s ease-in-out;
+}
+
+.project-date{
+	font-size:0.5em;
+	color:yellow;
+	margin
+}
+
+.project-name{
+	margin-top:45%;
+	color:white;
+}
+
+.project-category{
+	font-size:0.5em;
+	color:yellow;
+	margin-top:45%;
+}
+
+.box img{
+	max-width: 100%;
+	max-height:auto;
+	margin:auto;
+	display: block;
+}
+
